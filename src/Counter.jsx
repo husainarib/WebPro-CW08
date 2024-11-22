@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './CounterStyles.css';
+
 
 class Counter extends Component {
     constructor(props) {
@@ -20,7 +22,7 @@ class Counter extends Component {
             <div className="counter">
                 <h1>{this.state.count}</h1>
 
-                <button onClick={this.incrementCount}></button>
+                <button onClick={this.incrementCount}>Increment</button>
             </div>
         );
     }

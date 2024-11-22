@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { DropdownButton, DropdownItem } from "react-bootstrap";
 import List from "./List";
+import './FilteredListStyles.css';
 
 class FilteredList extends Component {
   constructor(props) {
